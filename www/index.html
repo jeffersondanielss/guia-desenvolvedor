@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <title>Guia do desenvolvedor</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+</head>
+<body>
+<!-- Home  -->
+  <div id="index" class="ui-responsive-panel" data-role="page">
+
+    <div data-role="panel" id="navbar" data-display="push" data-theme="b">     
+      <ul data-role="listview">
+        <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+        <li><a data-transition="slide" href="#automacao">Automação</a></li>
+          <li><a data-transition="slide" href="#cms">CMS</a></li>
+          <li><a data-transition="slide" href="#ferramentas">Ferramentas</a></li>
+          <li><a data-transition="slide" href="#frameworks">Frameworks</a></li>
+          <li><a data-transition="slide" href="#linguagens">Linguagens</a></li>         
+          <li><a data-transition="slide" href="#pre-processadores">Pre-precessadores</a></li>
+          <li><a data-transition="slide" href="#testes">Testes</a></li>
+          <li><a data-transition="slide" href="#web-servers">Web serves</a></li>
+      </ul>
+    </div>
+
+    <div data-role="panel" data-position="right" id="info" data-display="push" data-theme="b">
+      <h1>About</h1>   
+      <p>Aplicativo criado com o conteudo de uma biblioteca do CelebroBr com artigos originais e traduzidos para o português sobre desenvolvimento.</p>
+
+      <h4>Github</h4>
+        <hr>
+        <ul data-role="listview">
+          <li><a href="https://github.com/jeffersondanielss">APP</a></li>
+          <li><a href="https://github.com/cerebrobr/artigos">Cerebrobr</a></li>
+        </ul>
+    </div>
+
+    <div data-role="header" data-id="header">
+      <h1>
+        <a href="index.html" data-ajax="false">
+          <img src="images/logo.png" alt="Guia de desenvolvimento">
+        </a>
+      </h1>
+      <a href="#navbar" data-icon="bars" data-iconpos="notext">Menu</a>
+      <a href="#info" data-icon="info" data-iconpos="notext">Info</a>
+    </div>
+  
+    <div data-role="content">
+      <h2>Categorias</h2>
+      <br />
+      <ul data-role="listview">
+          <li><a data-transition="slide" href="#automacao">Automação</a></li>
+          <li><a data-transition="slide" href="#cms">CMS</a></li>
+          <li><a data-transition="slide" href="#ferramentas">Ferramentas</a></li>
+          <li><a data-transition="slide" href="#frameworks">Frameworks</a></li>
+          <li><a data-transition="slide" href="#linguagens">Linguagens</a></li>         
+          <li><a data-transition="slide" href="#pre-processadores">Pre-precessadores</a></li>
+          <li><a data-transition="slide" href="#testes">Testes</a></li>
+          <li><a data-transition="slide" href="#web-servers">Web serves</a></li>
+      </ul>
+    </div>
+
+    <div class="footer" data-role="footer" data-position="fixed" data-id="footer" data-theme="b">
+      <h4>Fork on <a href="http://github.com/jeffersondanielss" data-ajax="false">Github!</a></h4>
+    </div>
+
+  </div>
+<!-- End Home -->
+
+<!-- Automação -->
+<div id="automacao" data-role="page" >
+  <div data-role="header" data-add-back-btn="true" data-id="header">
+    <h1>
+      <a href="index.html" data-ajax="false">
+        <img src="images/logo.png" alt="Guia de desenvolvimento">
+      </a>
+    </h1>
+  </div>
+
+  <div data-role="content">
+    <h2>Automação</h2>
+    <ul data-role="listview" data-filter="true" data-count-theme="b" data-filter-placeholder="Busque..." data-inset="true">
+          <li><a data-ajax="false" href="bower.html">Bower<span class="ui-li-count">1</span></a></li>
+          <li><a data-ajax="false" href="composer.html">Composer<span class="ui-li-count">1</span></a></li>
+          <li><a data-ajax="false" href="grunt.html">Grunt<span class="ui-li-count">5</span></a></li>
+          <li><a data-ajax="false" href="gulp.html">Gulp<span class="ui-li-count">1</span></a></li>
+      </ul>
+  </div>
+  <div class="footer" data-role="footer" data-position="fixed" data-id="footer" data-theme="b">
+    <h4>Fork on <a href="http://github.com/jeffersondanielss" data-ajax="false">Github!</a></h4>
+  </div>
+</div>
+<!-- End Automação -->
+
+<!-- CMS -->
+<div id="cms" data-role="page" >
+  <div data-role="header" data-add-back-btn="true" data-id="header">
+    <h1>
+      <a href="index.html" data-ajax="false">
+        <img src="images/logo.png" alt="Guia de desenvolvimento">
+      </a>
+    </h1>
+  </div>
+
+  <div data-role="content">
+    <h2>CMS</h2>
+    <ul data-role="listview" data-filter="true" data-count-theme="b" data-filter-placeholder="Busque..." data-inset="true">
+          <li><a data-ajax="false" href="wordpress.html">Wordpress<span class="ui-li-count">23</span></a></li>
+          <li><a data-ajax="false" href="joomla.html">Joomla<span class="ui-li-count">0</span></a></li>
+          <li><a data-ajax="false" href="drupal.html">Drupal<span class="ui-li-count">0</span></a></li>
+      </ul>
+  </div>
+  <div class="footer" data-role="footer" data-position="fixed" data-id="footer" data-theme="b">
+    <h4>Fork on <a href="http://github.com/jeffersondanielss" data-ajax="false">Github!</a></h4>
+  </div>
+</div>
+<!-- End CMS -->
+
+<!-- Ferramentas -->
+<div id="ferramentas" data-role="page" >
+  <div data-role="header" data-add-back-btn="true" data-id="header">
+    <h1>
+      <a data-ajax="false" href="index.html">
+        <img src="images/logo.png" alt="Guia de desenvolvimento">
+      </a>
+    </h1>
+  </div>
+
+  <div data-role="content">
+    <h2>Ferramentas</h2>
+    <ul data-role="listview" data-filter="true" data-count-theme="b" data-filter-placeholder="Busque..." data-inset="true">
+          <li><a data-ajax="false" href="git.html">Git<span class="ui-li-count">7</span></a></li>
+          <li><a data-ajax="false" href="json.html">Json<span class="ui-li-count">1</span></a></li>
+          <li><a data-ajax="false" href="karma.html">karma<span class="ui-li-count">0</span></a></li>
+          <li><a data-ajax="false" href="vagrant.html">Vagrant<span class="ui-li-count">1</span></a></li>
+          <li><a data-ajax="false" href="web-components.html">Web-components<span class="ui-li-count">1</span></a></li>
+          <li><a data-ajax="false" href="yeoman.html">Yeoman<span class="ui-li-count">0</span></a></li>
+      </ul>
+  </div>
+  <div class="footer" data-role="footer" data-position="fixed" data-id="footer" data-theme="b">
+    <h4>Fork on <a href="http://github.com/jeffersondanielss" data-ajax="false">Github!</a></h4>
+  </div>
+</div>
+<!-- End Ferramentas -->
+
+<!-- Frameworks -->
+<div id="frameworks" data-role="page" >
+  <div data-role="header" data-add-back-btn="true" data-id="header">
+    <h1>Guia do Desenvolvedor</h1>
+  </div>
+
+  <div data-role="content">
+    <h2>Frameworks</h2>
+    <ul data-role="listview" data-filter="true" data-count-theme="b" data-filter-placeholder="Busque..." data-inset="true">
+          <li data-role="list-divider">Javascript</a></li>
+            <li><a data-ajax="false" href="angular.html">Angular<span class="ui-li-count">12</span></a></li>
+            <li><a data-ajax="false" href="backbone.html">Backbone<span class="ui-li-count">1</span></a></li>
+            <li><a data-ajax="false" href="ember.html">Ember<span class="ui-li-count">0</span></a></li>
+          <li data-role="list-divider">CSS</a></li>
+            <li><a data-ajax="false" href="compass.html">Compass<span class="ui-li-count">0</span></a></li>
+          <li data-role="list-divider">Ruby</a></li>
+            <li><a data-ajax="false" href="rails.html">Rails<span class="ui-li-count">0</span></a></li>
+            <li><a data-ajax="false" href="sinatra.html">Sinatra<span class="ui-li-count">0</span></a></li>
+      </ul>
+  </div>
+  <div class="footer" data-role="footer" data-position="fixed" data-id="footer" data-theme="b">
+    <h4>Fork on <a href="http://github.com/jeffersondanielss" data-ajax="false">Github!</a></h4>
+  </div>
+</div>
+<!-- End Frameworks -->
+
+<!-- linguagens -->
+<div id="linguagens" data-role="page">
+  <div data-role="header" data-add-back-btn="true" data-id="header">
+    <h1>
+      <a href="index.html" data-ajax="false">
+        <img src="images/logo.png" alt="Guia de desenvolvimento">
+      </a>
+    </h1>
+  </div>
+
+  <div data-role="content">
+    <h2>Linguagens</h2>
+    <ul data-role="listview" data-filter="true" data-count-theme="b" data-filter-placeholder="Busque..." data-inset="true">
+          <li><a data-ajax="false" href="html.html">HTML<span class="ui-li-count">0</span></a></li>
+          <li><a data-ajax="false" href="css.html">CSS<span class="ui-li-count">6</span></a></li>
+          <li><a data-ajax="false" href="javascript.html">Javascript<span class="ui-li-count">9</span></a></li>
+          <li><a data-ajax="false" href="jquery.html">jQuery<span class="ui-li-count">0</span></a></li>
+          <li><a data-ajax="false" href="php.html">PHP<span class="ui-li-count">5</span></a></li>
+          <li><a data-ajax="false" href="shell.html">Shell<span class="ui-li-count">0</span></a></li>
+      </ul>
+  </div>
+  <div class="footer" data-role="footer" data-position="fixed" data-id="footer" data-theme="b">
+    <h4>Fork on <a href="http://github.com/jeffersondanielss" data-ajax="false">Github!</a></h4>
+  </div>
+</div>
+<!-- End linguagens -->
+
+<!-- Pré-Processadores -->
+<div id="pre-processadores" data-role="page" >
+  <div data-role="header" data-add-back-btn="true" data-id="header">
+    <h1>
+      <a href="index.html" data-ajax="false">
+        <img src="images/logo.png" alt="Guia de desenvolvimento">
+      </a>
+    </h1>
+  </div>
+
+  <div data-role="content">
+    <h2>Pré-Processadores</h2>
+    <ul data-role="listview" data-filter="true" data-count-theme="b" data-filter-placeholder="Busque..." data-inset="true">
+          <li data-role="list-divider">CSS</a></li>
+            <li><a data-ajax="false" href="less.html">LESS<span class="ui-li-count">1</span></a></li>
+            <li><a data-ajax="false" href="sass.html">SASS<span class="ui-li-count">0</span></a></li>
+            <li><a data-ajax="false" href="stylus.html">Stylus<span class="ui-li-count">0</span></a></li>
+          <li data-role="list-divider">Javascript</a></li>
+            <li><a data-ajax="false" href="coffeescript.html">CoffeeScript<span class="ui-li-count">1</span></a></li>
+          <li data-role="list-divider">HTML</a></li>
+            <li><a data-ajax="false" href="haml.html">Haml<span class="ui-li-count">0</span></a></li>
+            <li><a data-ajax="false" href="ejs.html">Ejs<span class="ui-li-count">0</span></a></li>
+            <li><a data-ajax="false" href="jade.html">Jade<span class="ui-li-count">0</span></a></li>
+      </ul>
+  </div>
+  <div class="footer" data-role="footer" data-position="fixed" data-id="footer" data-theme="b">
+    <h4>Fork on <a href="http://github.com/jeffersondanielss" data-ajax="false">Github!</a></h4>
+  </div>
+</div>
+<!-- End Pré-Processadores -->
+
+<!-- Testes -->
+<div id="testes" data-role="page">
+  <div data-role="header" data-add-back-btn="true" data-id="header">
+    <h1>
+      <a href="index.html" data-ajax="false">
+        <img src="images/logo.png" alt="Guia de desenvolvimento">
+      </a>
+    </h1>
+  </div>
+
+  <div data-role="content">
+    <h2>Testes</h2>
+    <ul data-role="listview" data-filter="true" data-count-theme="b" data-filter-placeholder="Busque..." data-inset="true">
+          <li><a data-ajax="false" href="e2e.html">E2E<span class="ui-li-count">0</span></a></li>
+          <li><a data-ajax="false" href="tdd-bdd.html">TDD e BDD<span class="ui-li-count">5</span></a></li>
+      </ul>
+  </div>
+  <div class="footer" data-role="footer" data-position="fixed" data-id="footer" data-theme="b">
+    <h4>Fork on <a href="http://github.com/jeffersondanielss" data-ajax="false">Github!</a></h4>
+  </div>
+</div>
+<!-- End testes -->
+
+<!-- Web Servers -->
+<div id="web-servers" data-role="page">
+  <div data-role="header" data-add-back-btn="true" data-id="header">
+    <h1>
+      <a href="index.html" data-ajax="false">
+        <img src="images/logo.png" alt="Guia de desenvolvimento">
+      </a>
+    </h1>
+  </div>
+
+  <div data-role="content">
+    <h2>Web Servers</h2>
+    <ul data-role="listview" data-filter="true" data-count-theme="b" data-filter-placeholder="Busque..." data-inset="true">
+          <li><a data-ajax="false" href="nginx.html">Nginx<span class="ui-li-count">1</span></a></li>
+      </ul>
+  </div>
+  <div class="footer" data-role="footer" data-position="fixed" data-id="footer" data-theme="b">
+    <h4>Fork on <a href="http://github.com/jeffersondanielss" data-ajax="false">Github!</a></h4>
+  </div>
+</div>
+<!-- End Web Servers -->
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-mobile.min.js"></script> 
+<script type="text/javascript" src="phonegap.js"></script>
+<script type="text/javascript">
+    app.initialize();
+</script> 
+</body>
+</html>
