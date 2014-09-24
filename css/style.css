@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: url('../images/background.jpg');
+  background: url('https://raw.githubusercontent.com/jeffersondanielss/guia-do-desenvolvedor/gh-pages/images/background.JPG');
 }
 
 .wrapper {
